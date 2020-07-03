@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button';
 import Container from './components/Container';
-import Box from './components/box';
-import Input from './components/input'
+import Box from './components/Box';
+import Input from './components/Input'
 
 
 class App extends React.Component {
@@ -53,7 +52,7 @@ class App extends React.Component {
       <div>
       <Input type ='text' name= 'SearchItemInput' inputValue={this.state.inputValue} onChange = {this.handleInputChange}/>
       </div>
-          <Container value={this.state.items}/>
+        <Container value={this.state.items}/>
       </div>
     )
   }
